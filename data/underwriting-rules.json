@@ -1,0 +1,92 @@
+{
+  "product": "Advantage Plus ELITE Hospital Indemnity Insurance",
+  "source_documents": ["Adv Plus Elite 2.1 UW Guide Rv 8_25.pdf", "New Adv Plus Elite PA, TX Rates_UW Guide Rv 8_25.pdf"],
+  "source_marking": "FOR AGENT USE ONLY - internal reference, not for distribution",
+  "issue_ages": { "min": 40, "max": 85 },
+  "guaranteed_issue": {
+    "age_range": [64.5, 75],
+    "note": "Medical questions do NOT need to be answered if applicant is age 64.5 up to (but not including) 75 as of the application date, REGARDLESS of health. Exception: if applying for the Cancer rider, medical questions must be answered regardless of age.",
+    "states_without_guaranteed_issue": ["NJ", "UT"],
+    "utah_note": "UT: not Guaranteed Issue between age 64.5 and up to 70"
+  },
+  "medical_underwriting": {
+    "rule": "Final decision is based on answers to medical questions. If all medical questions are answered 'NO', applicant is eligible (subject to claim review if there is/was another GTL health policy).",
+    "cancer_rider_exception": "Applicant must answer medical questions for the Cancer rider regardless of age, even in the GI window."
+  },
+  "pre_existing_condition": {
+    "lookback_months": 6,
+    "definition": "A sickness or injury (disclosed or not) for which medical care, treatment, diagnosis, or advice was received or recommended within the 6 months immediately prior to the effective date; or symptoms that would cause an ordinarily prudent person to seek diagnosis/care/treatment within that 6-month window. Includes taking prescription drugs/medicines.",
+    "coverage_trigger": "Pre-existing conditions are covered once the loss begins more than 6 months after the effective date.",
+    "state_exceptions": {
+      "NC": "No pre-existing condition limitation at all.",
+      "MD": "No waiting periods.",
+      "note": "Pre-ex period may differ by state; still applies during the Guaranteed Issue window."
+    }
+  },
+  "application_rules": {
+    "application_staleness_days": 31,
+    "note_staleness": "If the application is over 31 days old when received by GTL, a new currently-dated application is required.",
+    "max_days_effective_date_from_application": 90,
+    "min_days_effective_date_before_application": 0,
+    "note_effective_date": "Effective date cannot be more than 90 days from the application date, and cannot be prior to the application date.",
+    "spouse_policy_fee": "If both spouses apply for coverage, a separate annual policy fee is required for each.",
+    "requires_ssn": true,
+    "requires_us_citizen_or_green_card": true,
+    "poa_or_guardianship_acceptable": false,
+    "agent_requirement": "Agent must be health-licensed and use the state-approved application for the state of the applicant's permanent residency."
+  },
+  "financial": {
+    "min_annual_premium_with_any_rider_and_policy_fee": 240,
+    "annual_policy_fee": 20,
+    "annual_policy_fee_exception_MS": 6.00,
+    "payment_mode_factors": { "annual": 1.0, "semi_annual": 0.520, "quarterly": 0.265, "monthly_pac": 0.084 }
+  },
+  "policy_changes": {
+    "benefit_increase_or_new_rider": "Requires a new completed application (e-App, Agent Portal, or paper), subject to evidence of insurability.",
+    "cancel_rewrite_trigger": "Changing the benefit period (increasing or decreasing) is treated as a cancel/rewrite: old policy terminated as of paid-to-date, new policy issued as of that same paid-to-date. Commissions paid on a renewal basis. Pre-existing waiting period and contestability period restart.",
+    "replacement_of_older_plan": "Allowed subject to underwriting approval; commissions on the new policy paid on a renewal basis.",
+    "adding_dental_vision": "Guaranteed Issue, can be added to an existing policy by calling GTL New Business (1-800-635-1993) or submitting the Dental/Vision Rider Addition Form.",
+    "rider_only_addition": "New application required, sent to Underwriting for review. If approved, rider added as of the next paid-due date (or next month if on direct billing). No new policy is issued.",
+    "reinstatement_window_months": 6
+  },
+  "cross_product_overlap_limits": {
+    "note": "Applies across GTL and UNL products combined, not just within Advantage Plus Elite.",
+    "base_hospital_confinement": { "max_combined_daily_benefit": 1000, "note": "Applicant can have an additional $300/day Accident & Sickness Hospitalization rider under the Short-Term Home Health Care (HHC) plan." },
+    "ambulance_rider": { "max_combined_benefit": 400, "max_issue_age": 80 },
+    "outpatient_surgical_rider": { "max_combined_benefit": 1000 },
+    "outpatient_therapy_rider": { "max_riders_allowed": 1 },
+    "skilled_nursing_facility_rider": { "max_combined_benefit": 300, "note": "Not allowed if another existing product has similar benefits (no duplication). Max $300 only available on Advantage Plus Elite. Overlaps with Long-Term Care and Recover Cash/Recuperation Plus products." },
+    "lump_sum_hospital_rider": { "max_combined_benefit": 750 },
+    "critical_accident_rider": { "max_combined_benefit": 10000 },
+    "lump_sum_cancer_rider": { "max_combined_benefit_gtl": 50000, "max_combined_benefit_unl": 35000, "gtl_age_range": [18, 90], "unl_age_range": [18, 85] },
+    "dental_vision_rider": { "max_riders_allowed": 1, "note": "Not allowed in combination with any other GTL or UNL dental coverage." },
+    "guaranteed_purchase_option_rider": { "max_riders_allowed": 1, "note": "Available upon issue only. Can be removed but cannot be added back once removed. Advantage Plus Elite plans only." }
+  },
+  "state_specific_variances": {
+    "CT": "Own Dental/Vision Policy (separate, not a rider); No Cancer, Outpatient Therapy, Critical Accident, or Outpatient Surgical Riders.",
+    "GA": "No Dental/Vision or Cancer-with-Recurrence Riders.",
+    "IN": "No Policy Fee.",
+    "KS": "Own Dental/Vision Policy (separate); No Cancer, Skilled Nursing Home, or Outpatient Therapy Riders.",
+    "MD": "No Dental/Vision or Skilled Nursing Home Option 2 (Days 21-100); No Waiting Periods.",
+    "MN": "No Cancer, Dental/Vision, or Skilled Nursing Facility Riders.",
+    "MO": "No Dental/Vision Rider.",
+    "MS": "$6.00 Annual Policy Fee (vs. standard $20).",
+    "NC": "No Pre-Existing Condition Waiting Period.",
+    "PA": "Special Initial Benefit Period of $15/day for the remainder of the 31-day period.",
+    "RI": "No Cancer Riders.",
+    "SD": "No Short Duration Hospital Stay Benefit.",
+    "TN": "No Dental/Vision Rider.",
+    "TX": "Special Initial Benefit Period of $15/day for the remainder of the 31-day period. No waiting period on Critical Accident rider (vs. 30 days standard).",
+    "UT": "Not Guaranteed Issue between age 64.5 and up to 70.",
+    "VA": "No Cancer or Dental/Vision Riders."
+  },
+  "new_business_submission": {
+    "methods": ["E-Application via Agent Portal (gtlic.com)", "E-application via mobile phone/tablet", "Email to und@gtlic.com", "Fax to 847-699-8493", "Mail to Guarantee Trust Life, Attn: New Business, 1275 Milwaukee Ave, Glenview, IL 60025"],
+    "voice_verification_required_when": "Client is not present to sign, or unable to use the digital/text-to-sign signature feature. NOT required if applicant can digitally or hand sign.",
+    "voice_verification_phone": "866-839-5132 (24/7, toll-free, ~3 minutes)",
+    "voice_verification_who": "Only the insured applicant(s) can complete it - not the agent, POA, or anyone else. One call covers both spouses if applying jointly. Children do not need to complete it.",
+    "sales_support_phone": "800-323-6907 (Mon-Thu 7AM-5PM, Fri 8AM-12PM Central)",
+    "underwriting_support_phone": "800-635-1993",
+    "customer_service_phone": "800-338-7452"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "product": "Advantage Plus ELITE Hospital Indemnity Insurance",
+  "carrier": "Guarantee Trust Life Insurance Company (GTL)",
+  "tagline": "Cash paid directly to the insured for hospital stays and related events - supplements a Medicare Advantage plan or any primary health coverage.",
+  "policy_type": "Limited benefit health insurance (NOT a Medicare Supplement, NOT a substitute for major medical). Guaranteed renewable for life as long as premiums are paid on time.",
+  "key_selling_points": [
+    "Base benefits kick in after 6 hours (Short Duration Hospital Stay benefit covers 6-24hr stays)",
+    "No hospital stay required for Emergency Room benefit ($150, injury or accident)",
+    "Rates don't increase as the client ages - locked at issue age",
+    "Simplified underwriting with instant approval in most cases",
+    "Guaranteed Issue for ages 64.5 up to 80 (NJ, UT excluded; UT excluded 64.5-70) - no medical questions required in that window except for the Cancer rider",
+    "Unlimited benefit restoration after 60 days with no hospital confinement",
+    "No limits to lifetime benefits received",
+    "Benefits paid directly to the insured (or assigned designee) - usable for any purpose, not just medical bills"
+  ],
+  "example_talk_track_scenario": {
+    "premise": "Client has a Medicare Advantage plan with a $300/day inpatient hospital co-pay for days 1-6.",
+    "event": "6-day inpatient hospital stay -> $1,800 out-of-pocket co-pay ($300 x 6 days).",
+    "gtl_solution": "GTL hospital indemnity pays a $300/day cash benefit for each day hospitalized (up to plan max) -> $1,800 cash received, usable to cover the Medicare Advantage co-pay.",
+    "sample_premium_reference": "~$25/month at age 65 for a comparable daily benefit (illustrative only - always quote from the actual rate table for the client's state/age/benefit selection).",
+    "closing_point": "Because benefits restore after 60 days with no confinement, this isn't a one-time-use policy - it's there again if it's needed again."
+  },
+  "general_policy_exclusions": [
+    "Treatment/services not deemed Medically Necessary, Experimental, received without charge or legal obligation to pay, received from an immediate family member, or received outside the United States",
+    "Injury/sickness caused or aggravated by intentionally self-inflicted injury, suicide, or attempted suicide (sane or insane)",
+    "Injury/sickness from war or active military service",
+    "Injury/sickness from participating in, committing, or attempting an assault, felony, riot, or civil commotion",
+    "Injury/sickness arising from employment and covered/payable under workers' compensation or occupational disease law",
+    "Cosmetic or elective surgery (except reconstructive surgery incidental to covered trauma/sickness/injury, or for a congenital anomaly)",
+    "Injury/sickness from operating a vehicle while under the influence of a controlled substance or while intoxicated",
+    "Confinement/treatment due to alcohol or voluntary use of drugs/narcotics/controlled substances not prescribed by a doctor",
+    "Losses incurred before the policy effective date or after termination/expiration"
+  ],
+  "not_a_substitute_disclosure": "THIS IS A SUPPLEMENT TO HEALTH INSURANCE AND IS NOT A SUBSTITUTE FOR MAJOR MEDICAL COVERAGE. LACK OF MAJOR MEDICAL COVERAGE (OR OTHER MINIMUM ESSENTIAL COVERAGE) MAY RESULT IN AN ADDITIONAL PAYMENT WITH YOUR TAXES.",
+  "form_series": {
+    "base": "G2150",
+    "riders": ["RG21ASB (Short Duration/base add-ons)", "RG21CA (Critical Accident)", "RG15CLS (Lump Sum Cancer)", "RG15CLSR (Cancer w/ Recurrence)", "RG15DV (Dental/Vision)", "RG21LSH (Lump Sum Hospital)", "RG21OPS (Outpatient Surgical)", "RG21OPT (Outpatient Therapy)", "RG21SNF (Skilled Nursing Facility)", "RG21SNF-EP", "RG24GPO (Guaranteed Purchase Option)", "RG24W (Wellness)"]
+  },
+  "contacts": {
+    "customer_service": "800-338-7452",
+    "underwriting_support": "800-635-1993",
+    "sales_support": "800-323-6907 (Mon-Thu 7AM-5PM, Fri 8AM-12PM Central)",
+    "voice_verification_line": "866-839-5132 (24/7)"
+  }
+}
