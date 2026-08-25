@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>VHB Quote Tool — GTL Advantage Plus ELITE</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<div class="agent-banner">FOR AGENT USE ONLY — INTERNAL TOOL — CARRIER-CONFIDENTIAL DATA — DO NOT DISTRIBUTE</div>
+
+<header class="app-header">
+  <div class="app-header__title">
+    <h1>Value Health Benefits <span class="divider">|</span> Quote &amp; Reference Tool</h1>
+    <p class="app-header__subtitle">Guarantee Trust Life (GTL) — Advantage Plus ELITE Hospital Indemnity</p>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button class="tab-btn active" data-tab="quote">Quote Builder</button>
+  <button class="tab-btn" data-tab="underwriting">Underwriting Reference</button>
+  <button class="tab-btn" data-tab="handoff">Handoff &amp; Script</button>
+</nav>
+
+<!-- Sticky client-context bar, shared across all tabs -->
+<section class="context-bar" id="context-bar">
+  <div class="field">
+    <label>State</label>
+    <div class="pill-group" id="state-pills"></div>
+  </div>
+  <div class="field">
+    <label for="in-dob">Date of birth</label>
+    <input type="date" id="in-dob">
+    <span class="hint" id="age-readout"></span>
+  </div>
+  <div class="field">
+    <label>Sex</label>
+    <div class="pill-group" id="sex-pills"></div>
+    <span class="hint">(Critical Accident rider pricing only)</span>
+  </div>
+  <div class="field field--wide">
+    <label>Benefit period</label>
+    <div class="pill-group" id="day-option-pills"></div>
+  </div>
+  <div class="field field--wide">
+    <label for="in-daily-benefit">Daily benefit</label>
+    <div class="slider-row">
+      <input type="range" id="in-daily-benefit-slider">
+      <input type="number" id="in-daily-benefit" step="10">
+    </div>
+    <span class="hint" id="daily-benefit-range-hint"></span>
+  </div>
+  <div class="field" id="gi-flag-field" hidden>
+    <span class="gi-flag" id="gi-flag"></span>
+  </div>
+</section>
+
+<main id="tab-panels">
+
+  <section class="tab-panel active" id="panel-quote">
+    <div class="quote-layout">
+
+      <div class="quote-col quote-col--riders">
+        <h2>Base Plan</h2>
+        <div id="base-plan-row"></div>
+        <h2 class="riders-heading">Riders — click to add, then customize the amount</h2>
+        <div id="riders-list" class="rider-grid"></div>
+      </div>
+
+      <div class="quote-col quote-col--total">
+        <h2>Premium Summary</h2>
+        <div class="hero-total" id="hero-total">
+          <div class="hero-total__label">Total annual premium</div>
+          <div class="hero-total__amount" id="hero-total-amount">—</div>
+          <div class="hero-total__sub" id="hero-total-sub"></div>
+        </div>
+        <div id="min-premium-warning" class="warning-banner" hidden></div>
+        <table class="totals-table" id="totals-table">
+          <thead>
+            <tr>
+              <th>Line item</th>
+              <th>Annual</th>
+              <th>Semi-Annual</th>
+              <th>Quarterly</th>
+              <th>Monthly PAC</th>
+            </tr>
+          </thead>
+          <tbody id="totals-tbody"></tbody>
+          <tfoot id="totals-tfoot"></tfoot>
+        </table>
+        <p class="fine-print" id="mode-fine-print"></p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="tab-panel" id="panel-underwriting">
+    <div class="uw-toolbar">
+      <input type="search" id="uw-search" placeholder="Search underwriting reference (e.g. a state code, &quot;pre-existing&quot;, &quot;cancer&quot;)…">
+    </div>
+    <div id="uw-content"></div>
+  </section>
+
+  <section class="tab-panel" id="panel-handoff">
+    <div id="handoff-content"></div>
+  </section>
+
+</main>
+
+<footer class="app-footer">
+  FOR AGENT USE ONLY — INTERNAL TOOL. Not for consumer distribution. Ballpark quotes only; the appointed writing agent must confirm final premium and underwriting at binding.
+</footer>
+
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "_comment": "Maps each supported state to its rate data file. To add a new state, add an entry here and drop the corresponding rate JSON in this folder — no app code changes needed. underwriting-rules.json and product-overview.json are shared across all states; state-specific variances live in underwriting-rules.json's state_specific_variances table.",
+  "states": {
+    "TX": {
+      "label": "Texas",
+      "rate_file": "tx-pa.json"
+    },
+    "PA": {
+      "label": "Pennsylvania",
+      "rate_file": "tx-pa.json"
+    }
+  }
+}
